@@ -1,0 +1,8 @@
+placa mae 400
+processador 150
+memoria 160
+fonte 230
+placa de video 650
+gabinete 230
+ssd 150
+hd 140
