@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* .container{
+        display: flex;
+        background-color: aqua;
+        font-size: 1.5em;
+        width: auto;
+        height: auto;
+        margin: 20px;
+        pading: 10px;
+        }
+        */
+
+        .container{
+            display: table;
+            background-color: aqua;
+            width: auto;
+            height: auto;
+            padding: 10p;
+            margin: 10px;
+            font-size: 130%;
+        }
+        .imagem{
+            display: table-cell;
+            float: left;
+        }
+        .game{
+            display: table-cell;
+            float: left;
+            width: 220px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">     
+        <div class="game">
+        <h2 class="titulogame">Videogame</h2>
+            <ul class="listagame">
+                <li>Vendas</li>
+                <li>Upgrades HD e SSD</li>
+                <li>Troca de Componentes</li>
+                <li>Reparo de placa mãe</li>
+                <li>Reparo de Controles</li>
+            </ul>
+        </div> 
+            <picture class="imagem">
+                <img src="img/ps400.png" class="ps400">
+            </picture>  
+        
+    </div>
+
+    <div class="container">
+        <div class="game">
+        <h2>Computadores</h2>
+        <ul>
+            <li>Vendas</li>
+            <li>Montagem</li>
+            <li>Upgrades</li>
+            <li>Troca de Componentes</li>
+            <li>Reparo de placa mãe</li>
+            <li>Reparo de Placa de Video</li>
+        </ul>
+        </div>
+        <img src="img/xbox400.png" alt="">
+    </div>
+</body>
+</html>

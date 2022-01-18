@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+h1.primeiroIten{
+    background-color: powderblue;
+}
+p.corprimeiro{
+    color: blue;
+    font-family: Arial;
+    font-size: 150%;
+}
+
+p.segundoParagrafo{
+    color: brown;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1.3em;
+}
+
+p.terceiroParagrafo{
+    color: blueviolet;
+    font-family: 'Lucida Sans';
+}
+
+p.quartoParagrafo{
+    color: crimson;
+    font-family: 'Impact';
+}
+
+p.quintoParagrafo{
+    color: coral;
+    font-family: 'Trebuchet MS';
+}
+
+
+p.sextoParagrafo{
+    color: darkgreen;
+    font-family: 'Lucida Sans Unicode';
+}

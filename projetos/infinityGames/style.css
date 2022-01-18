@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #d1ecfc;
+    --cor1: #7ac9f7;
+    --cor2: #4fbbfa;
+    --cor3: #26adfc;
+    --cor4: #0777b8;
+    --cor5: #00273dc7;
+
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+ 
+}
+
+body{
+    background-color: var(--cor0);
+
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    /*o a troca de color do mais claro ao mais escuro do menu*/
+    padding-top: 40px;
+}
+header > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00446B;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 2px 0 black;
+}
+
+header > p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin: auto;
+
+}
+
+nav{
+    background-color: var(--cor4);
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.274);
+
+}
+nav > a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0,5s;
+}
+
+nav > a:hover{
+    background-color: var(--cor3);
+    color: var(--cor5); /* tom da cor da letra ao passar o mouse*/
+}
+
+main{
+    min-width: 300px; /* se ajusta ate 300px no minimo*/
+    max-width: 850px; /* se ajusta ate 1000px no maximo*/
+    margin: auto;
+    margin-bottom: 30px; /* margin inverior depois do main*/
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.274);
+    border-bottom-left-radius: 10px; /* fica formato circular na borda esqueda branca*/
+    border-bottom-right-radius: 10px;
+}
+main article{
+    border: 20px;
+    margin: 20px;
+}
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color:var(--cor5);
+    padding: 2px 6px;
+}
+main a:hover{
+    color: var(--cor5);
+    background-color: var(--cor3);
+}
+
+main img.reparcel{
+    border-top: 20px;
+    display: block;
+    margin: auto;
+}
+main h1{
+    color: var(--cor4);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, var(--cor1),transparent);
+}
+
+main h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor4);
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, var(--cor1),transparent);
+    text-indent: 8px;
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px; 
+    font-size: 1.1em;
+    line-height: 20px; /*espaço branco entre as linhas*/
+}
+/* o strong falta colocar algo em negrito no site*/
+main strong{
+    color: var(--cor4);
+    font-weight: bold;
+}
+main h2{
+    padding: 10px;
+    border: 10px;
+    margin-top: 20px;
+    border-bottom: 30px;
+    border-top: 30px;
+    margin-bottom: 10px;
+}
+aside{
+    margin: 5px;
+}
+aside.sony, aside.microsoft, aside.sega, aside.nintendo{
+    display: inline-block;
+    background-color: var(--cor1);
+    width: 390px;
+    height: 300px;
+    vertical-align: top;/* alinha no top*/
+    border: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside.apple{
+    width: 100px;
+    display: inline-block;
+    border: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+aside.lg{
+    display: block;
+    width: 100px;
+    border: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  
+}
+aside.logolg{
+    float: right;
+}
+
+
+/*
+aside.microsoft{
+    display: inline-block;
+    background-color: var(--cor1);
+    width: 390px;
+    height: 300px;
+    vertical-align: 
+    border: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+aside.nintendo{
+    display: inline-block;
+    background-color: var(--cor1);
+    width: 390px;
+    height: 300px;
+    vertical-align: top; 
+    border: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+aside.sega{
+    display: inline-block;
+    background-color: var(--cor1);
+    width: 390px;
+    height: 300px;
+    vertical-align: top; 
+    border: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+*/
+aside > ul{
+    list-style-position: inside;
+    
+}
+
+footer{
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}

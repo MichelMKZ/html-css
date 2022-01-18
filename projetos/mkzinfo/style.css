@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('font/Vollkorn-VariableFont_wght.ttf') format('truetype');
+  }
+:root{
+    --cor0: #bae4fc ;
+    --cor1: #82cdf8;
+    --cor2: #53ace0;
+    --cor3: #2c8cc4;
+    --cor4: #0074b8;
+    --cor5: #bae4fc;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Vollkorn, Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
+    padding-top: 20px;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 1px 1px 7px black;
+    
+}
+
+nav{
+    background-color: var(--cor4);
+    padding: 10px;
+    text-align: right;
+    
+}
+nav > a{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 0,5s;
+}
+nav > a:hover{
+    background-color: var(--cor2);
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.384);
+    background-color: rgb(183, 245, 255);
+    height: auto;
+}
+div.home{
+    margin-bottom: 40px;
+    font-size: 1.5em;
+}
+div.marcas{
+    text-align: center;
+    font-size: 2em;
+    
+}
+.servico{
+    background-color:var(--cor1);
+    font-size: 1.5em;
+    margin-bottom: 0px;
+
+}
+.container{
+    display: table;
+    background-color:var(--cor1);
+    width: 65%;
+    height: auto;
+    padding: 20px;
+    margin: 10px auto;
+    border: 20px;
+    font-size: 130%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.384);
+    
+}
+.container1{
+    background-color:var(--cor1);
+    width: 66.6%;
+    min-width: 420px;
+    height: auto;
+    margin: auto;
+    
+    padding: 10px;
+    border: 20px;
+    font-size: 130%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.384);
+    
+}
+main{
+    margin-bottom: 0px;
+}
+ul{
+    list-style-position: inside;
+}
+.video{
+    margin-top: 20px;
+    text-align: center;
+    text-align: center;
+    font-size: 1.2em;
+}
+.img400{
+    display: table-cell;
+    float: left;
+}
+.marcasimg{
+    width: 100%;
+}
+.textServico{
+    display: table-cell;
+    float: left;
+    width: 400px;
+    
+}
+.maincontato{
+    padding: 0px;
+}
+main > p{
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 20px;
+}
+
+/*
+div.videogame{
+    display: inline-block;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+
+div.titulogame{
+    width: 200px;
+    margin: 0;
+    display: inline-block;
+}
+div.listagame{
+    width: 200px;
+    margin: 0;
+}
+div.ps400{
+    width: 100%;
+    height: 420px;
+    position: relative;
+
+}
+*/

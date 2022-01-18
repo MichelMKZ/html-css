@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+.main{
+	position: relative;
+	background: url(../images/header_bg.jpg) center top no-repeat;
+}
+.header{
+	height: 224px;
+	position: relative;
+	-position: static;
+}
+
+.pesquisa{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(images/search-l.gif)no-repeat;
+}
+
+#input{
+	margin-top: 5px;
+	border: solid 1px #ccc;
+	margin-right: 8px;
+	float: left;
+	font-size: 11px;
+	padding: 2px;
+}
+
+
+.pes a{
+    display: block;
+	float: left;
+	margin-right: 8px;
+	margin-top: 7px;
+}
+
+
+.logo{
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    bottom: 26px;
+    font-size: 32px;
+    width: 203px;
+    height: 66px;
+    
+}
+
+.containercorpo{
+	width: 800px;
+	margin: 0px auto;
+}
